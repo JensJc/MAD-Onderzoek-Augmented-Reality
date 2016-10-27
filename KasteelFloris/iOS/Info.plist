@@ -42,5 +42,11 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We&apos;d like to make use of your camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We&apos;d like to make use of your photolibrary</string>
+	<key>XSLaunchImageAssets</key>
+	<string>Assets.xcassets/LaunchImage.launchimage</string>
 </dict>
 </plist>

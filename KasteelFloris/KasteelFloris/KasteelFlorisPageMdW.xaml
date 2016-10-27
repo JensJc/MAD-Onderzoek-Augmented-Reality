@@ -3,8 +3,10 @@
 	<ContentPage.Content>
 		<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
 			<StackLayout Orientation="Vertical">
-				<Label Text="Welcome to KasteelFlorisPage"/>
-				<Label Text="Page MdW"/>
+				<Label HorizontalOptions="Center" Text="Welcome to KasteelFlorisPage"/>
+				<Label HorizontalOptions="Center" Text="Page MdW"/>
+				<Button HorizontalOptions="Center" Text="USE CAMERA" Clicked="UseCamera_Clicked"/>
+				<Image x:Name="imageArea" Margin="15" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
 			</StackLayout>
 		</StackLayout>
 	</ContentPage.Content>
