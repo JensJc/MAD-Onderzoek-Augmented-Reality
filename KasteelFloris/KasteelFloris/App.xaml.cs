@@ -8,7 +8,7 @@ namespace KasteelFloris
 		{
 			InitializeComponent();
 
-			MainPage = new KasteelFlorisPage();
+			MainPage = new NavigationPage(new KasteelFlorisPage());
 		}
 
 		protected override void OnStart()

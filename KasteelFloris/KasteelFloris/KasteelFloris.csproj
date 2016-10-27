@@ -30,6 +30,12 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="KasteelFlorisPage.xaml" />
+    <EmbeddedResource Include="KasteelFlorisPageJC.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasteelFlorisPageMdW.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -39,6 +45,12 @@
       <DependentUpon>KasteelFlorisPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="KasteelFlorisPageJC.xaml.cs">
+      <DependentUpon>KasteelFlorisPageJC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KasteelFlorisPageMdW.xaml.cs">
+      <DependentUpon>KasteelFlorisPageMdW.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
