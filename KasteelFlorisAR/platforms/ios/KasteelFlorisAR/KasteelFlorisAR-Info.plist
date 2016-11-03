@@ -47,6 +47,8 @@
     </array>
     <key>UIRequiresFullScreen</key>
     <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Camera nodig voor de app</string>
     <key>NSAppTransportSecurity</key>
     <dict>
       <key>NSAllowsArbitraryLoads</key>

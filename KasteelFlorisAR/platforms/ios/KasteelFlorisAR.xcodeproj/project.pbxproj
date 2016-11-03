@@ -5,41 +5,39 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		08E036F91F134999B45FDA3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8647C8D7814C22B991EA89 /* Foundation.framework */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
-		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
-		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
+		3150B855735141A0A52341E3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7723A99DB6D046FF8C4375AB /* Security.framework */; };
+		350C1CB121D144D6A08CAB13 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58505D39ECA4F37A7148B88 /* CFNetwork.framework */; };
+		40302B2BDD3141CAA1EB2723 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D786E25D019345C3BEA6449C /* QuartzCore.framework */; };
+		4AB6790FFF8B441FA5BA70E2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4E29F19FF1457DB3A13DE1 /* CoreMotion.framework */; };
+		56837C9287ED4B1CB30B8F30 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61292A5455E54747A161F01A /* MediaPlayer.framework */; };
+		5DE98F8C7D594B08B201B24E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F351FC435A5493885D1B661 /* CoreVideo.framework */; };
+		62E154B5CA5C42018B72EBEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBB2CE3C72A4F0196B5AFDE /* UIKit.framework */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		353E246289F4472088DC8807 /* WTWikitudePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B9B1C2B75041D4BAFE81C0 /* WTWikitudePlugin.m */; };
-		6D1905A78A7F40ED96BC551B /* WTARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A63D7F86E4EDDBF87F83D /* WTARViewController.m */; };
-		433183FEDF564FC0A365DAD9 /* libWikitudeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4BE06273DB4AE5B9CF29E0 /* libWikitudeSDK.a */; };
-		D22D5C6AFA2D496A851CC462 /* libWikitudeSDK-simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2E52CD4095456BA5371A5E /* libWikitudeSDK-simulator.a */; };
-		ABEE85F4666A45D9BB73BB91 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2E8B48D1824D67A43B17D5 /* Accelerate.framework */; };
-		F3C1959FDFEE43E9AD188959 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416C6D0E1B6B46ABAD1ABF38 /* AVFoundation.framework */; };
-		59C5DF62E8404CFF8A9E592B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC234DE972B4F2086175D31 /* CFNetwork.framework */; };
-		663DA72346D44D029910E88F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429F674AF5FF464B8552B567 /* CoreLocation.framework */; };
-		B4FCB61470BA459599E7359D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E39E2109F54076B8211330 /* CoreMedia.framework */; };
-		685C78BD20BB4A78ABA4E00D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E679D7E266484F907761E7 /* CoreMotion.framework */; };
-		157896AF79DB4D0ABA7C7B00 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6952FA1E31A24B3188787C1A /* CoreText.framework */; };
-		A0295682AEBF4CA1B92B9A62 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AC4E53D62846379373A248 /* CoreVideo.framework */; };
-		491B88F6A0FB44C5B1FCECE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F984C24FC847495F8CC39C7C /* Foundation.framework */; };
-		E85FDA6CFDEF413FA05B1DC9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB60EB08824C2A94B237ED /* MediaPlayer.framework */; };
-		BC87CD1867024E67BF3C995F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E185EF2A7974727B083BE29 /* OpenGLES.framework */; };
-		D440595561B848BABA01266B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98799DA9710949789D28C28B /* QuartzCore.framework */; };
-		EF3625193C204E9DAA6DBFCB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E2B2E2757D4252910C4F48 /* Security.framework */; };
-		80CC74846BEA420687992E33 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1023A4B93AF4B6CA60FD33F /* SystemConfiguration.framework */; };
-		A5B937491A514FC4BA93E6C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9645F83F6D4A7CBA8A30BA /* UIKit.framework */; };
-		39AA3CC6D868405F8190FC7C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EF4D08D4D8433D851CDC07 /* libc++.dylib */; };
-		BB6437C1BFC5472FB2E30AE5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FC211AFC914A0D8C041ABA /* libz.dylib */; };
-		FDCD645AC6334B408BD1A2BC /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CDEA4000A948A0AC13F906 /* CDVFile.m */; };
-		242D4EDDB58841E39C484FC6 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 269FCD93DCF04D8786DBEEB3 /* CDVLocalFilesystem.m */; };
-		E767982EFA454271AE965377 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F36623A8724198801B7758 /* CDVAssetLibraryFilesystem.m */; };
+		73C2FB972CC44EDABC0F5382 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6933F0658E094AF2A33B95A4 /* libc++.dylib */; };
+		7591C94FC37B48E4AB481B65 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BFEAFE2C7F4376AC553609 /* Accelerate.framework */; };
+		7BEC446FA74242A9A0BF4101 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F77BC8BBE46BB809EAFD7 /* libz.dylib */; };
+		86515AF26B8F4732AFB684D6 /* libWikitudeSDK-simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A182CDEAB58497BB85A96DF /* libWikitudeSDK-simulator.a */; };
+		932F4F7C6B7545D5A0B9C12B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F298CDAE534B9F96678B57 /* AVFoundation.framework */; };
+		A6A5524AD7CF4A7F93AD81F8 /* libWikitudeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C566669224B54A28AA70F /* libWikitudeSDK.a */; };
+		AA0010BE98364EBEA272BC85 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC547A436E45C492B8F7BB /* CoreText.framework */; };
+		C074E46C0E1B4C31AAA5ECB1 /* WTARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C43A93EC9460BB8F317DC /* WTARViewController.m */; };
+		C820D3E5606A4CECA710563A /* WTWikitudePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C695B9CD5DA942BD8424FA1C /* WTWikitudePlugin.m */; };
+		D2D856F02AF341CAA18E2EB1 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A7A9D8D21A43C985EFB253 /* CDVFile.m */; };
+		DF0B482F37EC4F73A92A15F3 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2EE8184934ED4A1A76F84 /* CDVAssetLibraryFilesystem.m */; };
+		E635C3F1B9A745D28FA1AE28 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4F04B55EBC47A2BAD60DA5 /* SystemConfiguration.framework */; };
+		E8B135706B8A4014BCCCACB4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BFF95BA00641E1B5375DE2 /* CoreMedia.framework */; };
+		EFF3B9770A54416495B80E24 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E51F9CC6064768BB4D674D /* OpenGLES.framework */; };
+		F4D1A2AB8E77463BADF25F0B /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D36AB9F4DE14798B0C57326 /* CDVLocalFilesystem.m */; };
+		F8B450F31E5B453A91B2F3F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EDB8E341224D7DB8705D35 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,61 +58,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "KasteelFlorisAR/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		012C566669224B54A28AA70F /* libWikitudeSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libWikitudeSDK.a; path = KasteelFlorisAR/Plugins/com.wikitude.phonegap.WikitudePlugin/libWikitudeSDK.a; sourceTree = "<group>"; };
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KasteelFlorisAR/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		0A4E29F19FF1457DB3A13DE1 /* CoreMotion.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0D36AB9F4DE14798B0C57326 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; };
+		0DBB2CE3C72A4F0196B5AFDE /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F351FC435A5493885D1B661 /* CoreVideo.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1827F7FEC0C0455F850D28AB /* WikitudeSDK.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WikitudeSDK.h; path = com.wikitude.phonegap.WikitudePlugin/WikitudeSDK.h; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* KasteelFlorisAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KasteelFlorisAR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* KasteelFlorisAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KasteelFlorisAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BFEAFE2C7F4376AC553609 /* Accelerate.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		26EDB8E341224D7DB8705D35 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = cordova/build-debug.xcconfig; sourceTree = SOURCE_ROOT; };
-		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = cordova/build-release.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* KasteelFlorisAR-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KasteelFlorisAR-Prefix.pch"; sourceTree = "<group>"; };
-		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "KasteelFlorisAR/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		363C509EAA364B508255AE7C /* WTARViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WTARViewController.h; path = com.wikitude.phonegap.WikitudePlugin/WTARViewController.h; sourceTree = "<group>"; };
+		3A182CDEAB58497BB85A96DF /* libWikitudeSDK-simulator.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = "libWikitudeSDK-simulator.a"; path = "KasteelFlorisAR/Plugins/com.wikitude.phonegap.WikitudePlugin/libWikitudeSDK-simulator.a"; sourceTree = "<group>"; };
+		3B1C43A93EC9460BB8F317DC /* WTARViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WTARViewController.m; path = com.wikitude.phonegap.WikitudePlugin/WTARViewController.m; sourceTree = "<group>"; };
+		4E8647C8D7814C22B991EA89 /* Foundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61292A5455E54747A161F01A /* MediaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6933F0658E094AF2A33B95A4 /* libc++.dylib */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = KasteelFlorisAR/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		6EAAFF93075C4B7FBC513E54 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; };
+		7723A99DB6D046FF8C4375AB /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		79989FE2DA844DDBB7823F6E /* WTWikitudePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WTWikitudePlugin.h; path = com.wikitude.phonegap.WikitudePlugin/WTWikitudePlugin.h; sourceTree = "<group>"; };
+		79BFF95BA00641E1B5375DE2 /* CoreMedia.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		80A7A9D8D21A43C985EFB253 /* CDVFile.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; };
+		8C4F04B55EBC47A2BAD60DA5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* KasteelFlorisAR-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "KasteelFlorisAR-Info.plist"; path = "KasteelFlorisAR/KasteelFlorisAR-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		90B7533C54E64D689600B4A4 /* WTStartupConfiguration.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WTStartupConfiguration.h; path = com.wikitude.phonegap.WikitudePlugin/WTStartupConfiguration.h; sourceTree = "<group>"; };
+		94C2EE8184934ED4A1A76F84 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; };
+		963BF6272DEB41E29CFBE4BB /* CDVFile.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; };
+		A30F77BC8BBE46BB809EAFD7 /* libz.dylib */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AE9DA56A9B434C758DAAC49F /* WTArchitectViewDebugDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WTArchitectViewDebugDelegate.h; path = com.wikitude.phonegap.WikitudePlugin/WTArchitectViewDebugDelegate.h; sourceTree = "<group>"; };
+		B0B2DD2E869643308758C36F /* WTArchitectView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WTArchitectView.h; path = com.wikitude.phonegap.WikitudePlugin/WTArchitectView.h; sourceTree = "<group>"; };
+		BA811EFF83664BDFA2715FCD /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; };
+		BE5BDA57FC3048C38BA685C6 /* WTWikitudeTypes.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WTWikitudeTypes.h; path = com.wikitude.phonegap.WikitudePlugin/WTWikitudeTypes.h; sourceTree = "<group>"; };
+		C58505D39ECA4F37A7148B88 /* CFNetwork.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C695B9CD5DA942BD8424FA1C /* WTWikitudePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WTWikitudePlugin.m; path = com.wikitude.phonegap.WikitudePlugin/WTWikitudePlugin.m; sourceTree = "<group>"; };
+		D786E25D019345C3BEA6449C /* QuartzCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E7F298CDAE534B9F96678B57 /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "KasteelFlorisAR/config.xml"; sourceTree = "<group>"; };
-		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		46B9B1C2B75041D4BAFE81C0 /* WTWikitudePlugin.m */ = {isa = PBXFileReference; name = "WTWikitudePlugin.m"; path = "com.wikitude.phonegap.WikitudePlugin/WTWikitudePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		EC6A63D7F86E4EDDBF87F83D /* WTARViewController.m */ = {isa = PBXFileReference; name = "WTARViewController.m"; path = "com.wikitude.phonegap.WikitudePlugin/WTARViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		9A4BE06273DB4AE5B9CF29E0 /* libWikitudeSDK.a */ = {isa = PBXFileReference; name = "libWikitudeSDK.a"; path = "KasteelFlorisAR/Plugins/com.wikitude.phonegap.WikitudePlugin/libWikitudeSDK.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		5A2E52CD4095456BA5371A5E /* libWikitudeSDK-simulator.a */ = {isa = PBXFileReference; name = "libWikitudeSDK-simulator.a"; path = "KasteelFlorisAR/Plugins/com.wikitude.phonegap.WikitudePlugin/libWikitudeSDK-simulator.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		CD5738630E64444BA104657E /* WTWikitudePlugin.h */ = {isa = PBXFileReference; name = "WTWikitudePlugin.h"; path = "com.wikitude.phonegap.WikitudePlugin/WTWikitudePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		B0ACC8B642354AE3B0B29882 /* WTARViewController.h */ = {isa = PBXFileReference; name = "WTARViewController.h"; path = "com.wikitude.phonegap.WikitudePlugin/WTARViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		E843E0E45EB24026B33EFB91 /* WikitudeSDK.h */ = {isa = PBXFileReference; name = "WikitudeSDK.h"; path = "com.wikitude.phonegap.WikitudePlugin/WikitudeSDK.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3C57BACC9280419397ACEE2F /* WTArchitectView.h */ = {isa = PBXFileReference; name = "WTArchitectView.h"; path = "com.wikitude.phonegap.WikitudePlugin/WTArchitectView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		E365F63F5669475A894D3AE2 /* WTNavigation.h */ = {isa = PBXFileReference; name = "WTNavigation.h"; path = "com.wikitude.phonegap.WikitudePlugin/WTNavigation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3C89BA867A4B481FB8BA7BB3 /* WTStartupConfiguration.h */ = {isa = PBXFileReference; name = "WTStartupConfiguration.h"; path = "com.wikitude.phonegap.WikitudePlugin/WTStartupConfiguration.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		298202AD0D0D490FA3B7D8BC /* WTArchitectViewDebugDelegate.h */ = {isa = PBXFileReference; name = "WTArchitectViewDebugDelegate.h"; path = "com.wikitude.phonegap.WikitudePlugin/WTArchitectViewDebugDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		6808C5A59928407D8FD7F865 /* WTWikitudeTypes.h */ = {isa = PBXFileReference; name = "WTWikitudeTypes.h"; path = "com.wikitude.phonegap.WikitudePlugin/WTWikitudeTypes.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		AA2E8B48D1824D67A43B17D5 /* Accelerate.framework */ = {isa = PBXFileReference; name = "Accelerate.framework"; path = "System/Library/Frameworks/Accelerate.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		416C6D0E1B6B46ABAD1ABF38 /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		5EC234DE972B4F2086175D31 /* CFNetwork.framework */ = {isa = PBXFileReference; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		429F674AF5FF464B8552B567 /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		57E39E2109F54076B8211330 /* CoreMedia.framework */ = {isa = PBXFileReference; name = "CoreMedia.framework"; path = "System/Library/Frameworks/CoreMedia.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		62E679D7E266484F907761E7 /* CoreMotion.framework */ = {isa = PBXFileReference; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		6952FA1E31A24B3188787C1A /* CoreText.framework */ = {isa = PBXFileReference; name = "CoreText.framework"; path = "System/Library/Frameworks/CoreText.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		35AC4E53D62846379373A248 /* CoreVideo.framework */ = {isa = PBXFileReference; name = "CoreVideo.framework"; path = "System/Library/Frameworks/CoreVideo.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		F984C24FC847495F8CC39C7C /* Foundation.framework */ = {isa = PBXFileReference; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		69DB60EB08824C2A94B237ED /* MediaPlayer.framework */ = {isa = PBXFileReference; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		6E185EF2A7974727B083BE29 /* OpenGLES.framework */ = {isa = PBXFileReference; name = "OpenGLES.framework"; path = "System/Library/Frameworks/OpenGLES.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		98799DA9710949789D28C28B /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		26E2B2E2757D4252910C4F48 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		C1023A4B93AF4B6CA60FD33F /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		FE9645F83F6D4A7CBA8A30BA /* UIKit.framework */ = {isa = PBXFileReference; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		B3EF4D08D4D8433D851CDC07 /* libc++.dylib */ = {isa = PBXFileReference; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
-		D8FC211AFC914A0D8C041ABA /* libz.dylib */ = {isa = PBXFileReference; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
-		89CDEA4000A948A0AC13F906 /* CDVFile.m */ = {isa = PBXFileReference; name = "CDVFile.m"; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		269FCD93DCF04D8786DBEEB3 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; name = "CDVLocalFilesystem.m"; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		C6F36623A8724198801B7758 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; name = "CDVAssetLibraryFilesystem.m"; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		EAF1734869454B21B5CE3271 /* CDVFile.h */ = {isa = PBXFileReference; name = "CDVFile.h"; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		62C86CE9BD89465D8EB92996 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; name = "CDVLocalFilesystem.h"; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		1035BD875BA3433892E51B02 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; name = "CDVAssetLibraryFilesystem.h"; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EC628B1EAD804C5FBC316EE1 /* WTNavigation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WTNavigation.h; path = com.wikitude.phonegap.WikitudePlugin/WTNavigation.h; sourceTree = "<group>"; };
+		ECDC547A436E45C492B8F7BB /* CoreText.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F4E51F9CC6064768BB4D674D /* OpenGLES.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = KasteelFlorisAR/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,25 +121,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				433183FEDF564FC0A365DAD9 /* libWikitudeSDK.a in Frameworks */,
-				D22D5C6AFA2D496A851CC462 /* libWikitudeSDK-simulator.a in Frameworks */,
-				ABEE85F4666A45D9BB73BB91 /* Accelerate.framework in Frameworks */,
-				F3C1959FDFEE43E9AD188959 /* AVFoundation.framework in Frameworks */,
-				59C5DF62E8404CFF8A9E592B /* CFNetwork.framework in Frameworks */,
-				663DA72346D44D029910E88F /* CoreLocation.framework in Frameworks */,
-				B4FCB61470BA459599E7359D /* CoreMedia.framework in Frameworks */,
-				685C78BD20BB4A78ABA4E00D /* CoreMotion.framework in Frameworks */,
-				157896AF79DB4D0ABA7C7B00 /* CoreText.framework in Frameworks */,
-				A0295682AEBF4CA1B92B9A62 /* CoreVideo.framework in Frameworks */,
-				491B88F6A0FB44C5B1FCECE6 /* Foundation.framework in Frameworks */,
-				E85FDA6CFDEF413FA05B1DC9 /* MediaPlayer.framework in Frameworks */,
-				BC87CD1867024E67BF3C995F /* OpenGLES.framework in Frameworks */,
-				D440595561B848BABA01266B /* QuartzCore.framework in Frameworks */,
-				EF3625193C204E9DAA6DBFCB /* Security.framework in Frameworks */,
-				80CC74846BEA420687992E33 /* SystemConfiguration.framework in Frameworks */,
-				A5B937491A514FC4BA93E6C1 /* UIKit.framework in Frameworks */,
-				39AA3CC6D868405F8190FC7C /* libc++.dylib in Frameworks */,
-				BB6437C1BFC5472FB2E30AE5 /* libz.dylib in Frameworks */,
+				A6A5524AD7CF4A7F93AD81F8 /* libWikitudeSDK.a in Frameworks */,
+				86515AF26B8F4732AFB684D6 /* libWikitudeSDK-simulator.a in Frameworks */,
+				7591C94FC37B48E4AB481B65 /* Accelerate.framework in Frameworks */,
+				932F4F7C6B7545D5A0B9C12B /* AVFoundation.framework in Frameworks */,
+				350C1CB121D144D6A08CAB13 /* CFNetwork.framework in Frameworks */,
+				F8B450F31E5B453A91B2F3F0 /* CoreLocation.framework in Frameworks */,
+				E8B135706B8A4014BCCCACB4 /* CoreMedia.framework in Frameworks */,
+				4AB6790FFF8B441FA5BA70E2 /* CoreMotion.framework in Frameworks */,
+				AA0010BE98364EBEA272BC85 /* CoreText.framework in Frameworks */,
+				5DE98F8C7D594B08B201B24E /* CoreVideo.framework in Frameworks */,
+				08E036F91F134999B45FDA3D /* Foundation.framework in Frameworks */,
+				56837C9287ED4B1CB30B8F30 /* MediaPlayer.framework in Frameworks */,
+				EFF3B9770A54416495B80E24 /* OpenGLES.framework in Frameworks */,
+				40302B2BDD3141CAA1EB2723 /* QuartzCore.framework in Frameworks */,
+				3150B855735141A0A52341E3 /* Security.framework in Frameworks */,
+				E635C3F1B9A745D28FA1AE28 /* SystemConfiguration.framework in Frameworks */,
+				62E154B5CA5C42018B72EBEE /* UIKit.framework in Frameworks */,
+				73C2FB972CC44EDABC0F5382 /* libc++.dylib in Frameworks */,
+				7BEC446FA74242A9A0BF4101 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +156,7 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = "KasteelFlorisAR/Classes";
+			path = KasteelFlorisAR/Classes;
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -194,7 +192,7 @@
 				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
 			);
 			name = "Other Sources";
-			path = "KasteelFlorisAR";
+			path = KasteelFlorisAR;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -206,31 +204,31 @@
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
 			);
 			name = Resources;
-			path = "KasteelFlorisAR/Resources";
+			path = KasteelFlorisAR/Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9A4BE06273DB4AE5B9CF29E0 /* libWikitudeSDK.a */,
-				5A2E52CD4095456BA5371A5E /* libWikitudeSDK-simulator.a */,
-				AA2E8B48D1824D67A43B17D5 /* Accelerate.framework */,
-				416C6D0E1B6B46ABAD1ABF38 /* AVFoundation.framework */,
-				5EC234DE972B4F2086175D31 /* CFNetwork.framework */,
-				429F674AF5FF464B8552B567 /* CoreLocation.framework */,
-				57E39E2109F54076B8211330 /* CoreMedia.framework */,
-				62E679D7E266484F907761E7 /* CoreMotion.framework */,
-				6952FA1E31A24B3188787C1A /* CoreText.framework */,
-				35AC4E53D62846379373A248 /* CoreVideo.framework */,
-				F984C24FC847495F8CC39C7C /* Foundation.framework */,
-				69DB60EB08824C2A94B237ED /* MediaPlayer.framework */,
-				6E185EF2A7974727B083BE29 /* OpenGLES.framework */,
-				98799DA9710949789D28C28B /* QuartzCore.framework */,
-				26E2B2E2757D4252910C4F48 /* Security.framework */,
-				C1023A4B93AF4B6CA60FD33F /* SystemConfiguration.framework */,
-				FE9645F83F6D4A7CBA8A30BA /* UIKit.framework */,
-				B3EF4D08D4D8433D851CDC07 /* libc++.dylib */,
-				D8FC211AFC914A0D8C041ABA /* libz.dylib */,
+				012C566669224B54A28AA70F /* libWikitudeSDK.a */,
+				3A182CDEAB58497BB85A96DF /* libWikitudeSDK-simulator.a */,
+				21BFEAFE2C7F4376AC553609 /* Accelerate.framework */,
+				E7F298CDAE534B9F96678B57 /* AVFoundation.framework */,
+				C58505D39ECA4F37A7148B88 /* CFNetwork.framework */,
+				26EDB8E341224D7DB8705D35 /* CoreLocation.framework */,
+				79BFF95BA00641E1B5375DE2 /* CoreMedia.framework */,
+				0A4E29F19FF1457DB3A13DE1 /* CoreMotion.framework */,
+				ECDC547A436E45C492B8F7BB /* CoreText.framework */,
+				0F351FC435A5493885D1B661 /* CoreVideo.framework */,
+				4E8647C8D7814C22B991EA89 /* Foundation.framework */,
+				61292A5455E54747A161F01A /* MediaPlayer.framework */,
+				F4E51F9CC6064768BB4D674D /* OpenGLES.framework */,
+				D786E25D019345C3BEA6449C /* QuartzCore.framework */,
+				7723A99DB6D046FF8C4375AB /* Security.framework */,
+				8C4F04B55EBC47A2BAD60DA5 /* SystemConfiguration.framework */,
+				0DBB2CE3C72A4F0196B5AFDE /* UIKit.framework */,
+				6933F0658E094AF2A33B95A4 /* libc++.dylib */,
+				A30F77BC8BBE46BB809EAFD7 /* libz.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,25 +254,25 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				46B9B1C2B75041D4BAFE81C0 /* WTWikitudePlugin.m */,
-				EC6A63D7F86E4EDDBF87F83D /* WTARViewController.m */,
-				CD5738630E64444BA104657E /* WTWikitudePlugin.h */,
-				B0ACC8B642354AE3B0B29882 /* WTARViewController.h */,
-				E843E0E45EB24026B33EFB91 /* WikitudeSDK.h */,
-				3C57BACC9280419397ACEE2F /* WTArchitectView.h */,
-				E365F63F5669475A894D3AE2 /* WTNavigation.h */,
-				3C89BA867A4B481FB8BA7BB3 /* WTStartupConfiguration.h */,
-				298202AD0D0D490FA3B7D8BC /* WTArchitectViewDebugDelegate.h */,
-				6808C5A59928407D8FD7F865 /* WTWikitudeTypes.h */,
-				89CDEA4000A948A0AC13F906 /* CDVFile.m */,
-				269FCD93DCF04D8786DBEEB3 /* CDVLocalFilesystem.m */,
-				C6F36623A8724198801B7758 /* CDVAssetLibraryFilesystem.m */,
-				EAF1734869454B21B5CE3271 /* CDVFile.h */,
-				62C86CE9BD89465D8EB92996 /* CDVLocalFilesystem.h */,
-				1035BD875BA3433892E51B02 /* CDVAssetLibraryFilesystem.h */,
+				C695B9CD5DA942BD8424FA1C /* WTWikitudePlugin.m */,
+				3B1C43A93EC9460BB8F317DC /* WTARViewController.m */,
+				79989FE2DA844DDBB7823F6E /* WTWikitudePlugin.h */,
+				363C509EAA364B508255AE7C /* WTARViewController.h */,
+				1827F7FEC0C0455F850D28AB /* WikitudeSDK.h */,
+				B0B2DD2E869643308758C36F /* WTArchitectView.h */,
+				EC628B1EAD804C5FBC316EE1 /* WTNavigation.h */,
+				90B7533C54E64D689600B4A4 /* WTStartupConfiguration.h */,
+				AE9DA56A9B434C758DAAC49F /* WTArchitectViewDebugDelegate.h */,
+				BE5BDA57FC3048C38BA685C6 /* WTWikitudeTypes.h */,
+				80A7A9D8D21A43C985EFB253 /* CDVFile.m */,
+				0D36AB9F4DE14798B0C57326 /* CDVLocalFilesystem.m */,
+				94C2EE8184934ED4A1A76F84 /* CDVAssetLibraryFilesystem.m */,
+				963BF6272DEB41E29CFBE4BB /* CDVFile.h */,
+				BA811EFF83664BDFA2715FCD /* CDVLocalFilesystem.h */,
+				6EAAFF93075C4B7FBC513E54 /* CDVAssetLibraryFilesystem.h */,
 			);
 			name = Plugins;
-			path = "KasteelFlorisAR/Plugins";
+			path = KasteelFlorisAR/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
 		EB87FDF11871DA420020F90C /* Staging */ = {
@@ -303,8 +301,8 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "KasteelFlorisAR";
-			productName = "KasteelFlorisAR";
+			name = KasteelFlorisAR;
+			productName = KasteelFlorisAR;
 			productReference = 1D6058910D05DD3D006BFB54 /* KasteelFlorisAR.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -315,11 +313,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = BACSM2355A;
+					};
+				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KasteelFlorisAR" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectReferences = (
@@ -384,11 +390,11 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				353E246289F4472088DC8807 /* WTWikitudePlugin.m in Sources */,
-				6D1905A78A7F40ED96BC551B /* WTARViewController.m in Sources */,
-				FDCD645AC6334B408BD1A2BC /* CDVFile.m in Sources */,
-				242D4EDDB58841E39C484FC6 /* CDVLocalFilesystem.m in Sources */,
-				E767982EFA454271AE965377 /* CDVAssetLibraryFilesystem.m in Sources */,
+				C820D3E5606A4CECA710563A /* WTWikitudePlugin.m in Sources */,
+				C074E46C0E1B4C31AAA5ECB1 /* WTARViewController.m in Sources */,
+				D2D856F02AF341CAA18E2EB1 /* CDVFile.m in Sources */,
+				F4D1A2AB8E77463BADF25F0B /* CDVLocalFilesystem.m in Sources */,
+				DF0B482F37EC4F73A92A15F3 /* CDVAssetLibraryFilesystem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +419,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = BACSM2355A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -421,12 +428,12 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "KasteelFlorisAR/KasteelFlorisAR-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_NAME = "KasteelFlorisAR";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/KasteelFlorisAR/Plugins/com.wikitude.phonegap.WikitudePlugin\"",
 					"\"$(SRCROOT)/KasteelFlorisAR/Plugins/com.wikitude.phonegap.WikitudePlugin\"",
 				);
+				PRODUCT_NAME = KasteelFlorisAR;
 			};
 			name = Debug;
 		};
@@ -440,18 +447,19 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = BACSM2355A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KasteelFlorisAR/KasteelFlorisAR-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "KasteelFlorisAR/KasteelFlorisAR-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_NAME = "KasteelFlorisAR";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/KasteelFlorisAR/Plugins/com.wikitude.phonegap.WikitudePlugin\"",
 					"\"$(SRCROOT)/KasteelFlorisAR/Plugins/com.wikitude.phonegap.WikitudePlugin\"",
 				);
+				PRODUCT_NAME = KasteelFlorisAR;
 			};
 			name = Release;
 		};
@@ -518,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KasteelFlorisAR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
