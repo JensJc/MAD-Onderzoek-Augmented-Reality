@@ -17,10 +17,27 @@ var samples = [
             "startupConfiguration": {
                 "camera_position": "back"
             }
+        },
+         {
+            "path": "www/arJC/index.html",
+            "requiredFeatures": [
+                "2d_tracking"
+            ],
+            "startupConfiguration": {
+                "camera_position": "back"
+            }
+        },
+         {
+            "path": "www/arMdW/index.html",
+            "requiredFeatures": [
+                "2d_tracking"
+            ],
+            "startupConfiguration": {
+                "camera_position": "back"
+            }
         }
 ]
 
 function getSamplePath(sample) {
 	return samples[sample];
-
 }
