@@ -9,7 +9,7 @@
 		 *  This is the SDK Key, provided to you after you purchased the Wikitude SDK from http =//www.wikitude.com/store/.
 		 *  You can obtain a free trial key at http =//www.wikitude.com/developer/licenses .
 		 */
-		this._sdkKey = "bIFPTUZcQGewvRIFG+d+oU3oKAlGvNmxOyX328ZVT+BoCGFVNqpVFqQ7lmCx5KW8eRiy5mSmSDGUbt2XobfLZOzU3X9+hOB3yxap/eroIOjO0A2ZmvjjW71f5DMraFl/UpLjGjjt1N6GPROty+l+1GOLiIWqmg9EOIAiNJ1aF1xTYWx0ZWRfX7ZLobuOLpYLNEnSF6j96WOaAOaUR2E/BeHW7TWbeZtyYzDPMeb7r/d/W4x5qgKKu9mrslJedFNY2o6f81Gev4hAqXeNe+8bE3lbkshX/tTv+iDNR/kJZBopxWhx/Be/Og37bY5PLsdddNTd0s4t5DFtHG23727W40GGUWxwd7vmV77n5iu3jPCeC4PAOlq44i7/7pzKsbDNY1s9m7XNjrnpWbhoDwapjSIillNeHn88u+BUQS+vT61qKEc3IIwBZ/SLpyy6AykwFvLovRnfXchjtQ87I5KByLYl5P1Ob9M3BBuO0R9V+0gmll1Wr/H+ExYocYbk9JA+WIWABdvhVD/IxNPq7mD38yMxC/DIJL8QBBsRxCZG1K3ER+BvVrxyuEUsuGivxnjgpT+sNjw2TNiXm1p5SI8W3hn/ew4ShBF+AzxY6YWh5QRAvK3yioVZIZcw+QEvTRWJHfDjsmlGLK/HmOHXf6ir35iKuhYR14TduxdHw/d1op0=";
+		this._sdkKey = "AP4c04iXTKvVgb7FBJb04m39o4LZijLkPsaHsthirPENeNc84J88AeK/nf3K/cvFd2RGWr0OQgrCeEBs7wYxDTk1FsA2FrFOVjSCQMvltuHDGD89+ouzeeNxvtOVI0qAgzlN/A2HnceN3HkDgU+aWZoPbP66536T3ZPRaeDPs5NTYWx0ZWRfX5PQJmmCXyXFLiouk7B+cy6GTGUwt8wjqHR7A+dIKQxs+FVsdV4cwvnEy6B91VI10mbS54I2qwslZYUaY+9Q/l+XeMfpF+MWSslE34eGNsZic+MTBj8seTDj/iXspRQG2EhZD/YuOKGtmH0dl1K+NcCdnxpQmAVelM0jUGpmXFm93J5rvoc5ebefPBwxZxAhAOq8oOllHpd8yD8dVCs9q1Xrfzpak2IQOZ13I9XYwO4WtV1g3gpRpi02LIHWtED3eHI+FA/9GizaEMfojbh8GyOl1zdaf6iNwLfR5BGi6lL7Cd4KC0vgHoI8InR3ufBtOeZjTfyJwDkfT2C4uLGqk9qvLb7aNOI7bxr996DUHepmiXxV89eUWici8baWEuQlNG/nR+r7kO0Mmf/YZjGPLC467hSX4y1z1AS+oDTLBcod9uXTOR26+ixs9PiSLbVS5TB3Zk1DQyojlWfQIBODWg7R6A46AAy7mhDwbOI8e9wKr59q0dFeFpJ8C4unvHgV7/TCqRfl9CkKGuS4tVwCwxXiNbl2i4/FJg==";
 
 		/**
 		 *  The Wikitude SDK can run in different modes.

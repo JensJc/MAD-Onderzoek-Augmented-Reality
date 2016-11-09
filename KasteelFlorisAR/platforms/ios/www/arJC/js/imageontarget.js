@@ -12,7 +12,7 @@ var World = {
 		});
 
 		var castleImg = new AR.ImageResource("assets/logo.png");
-		var overlayOne = new AR.ImageDrawable(castleImg, 1, {
+		var overlayOne = new AR.AnimatedImageDrawable(castleImg, 1, 286, 315, {
 			offsetX: 0,
 			offsetY: 0
 		});
