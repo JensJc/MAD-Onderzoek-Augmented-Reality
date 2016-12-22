@@ -1,0 +1,25 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.wikitude.phonegap.WikitudePlugin": {
+            "PACKAGE_NAME": "com.kasteelfloris.arapp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.kasteelfloris.arapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.kasteelfloris.arapp"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.kasteelfloris.arapp"
+        }
+    }
+}

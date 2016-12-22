@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:KasteelFloris" x:Class="KasteelFloris.KasteelFlorisPage">
+	<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+		<StackLayout Orientation="Vertical">
+			<Label Text="Welcome to the KasteelFlorisMainPage!"/>
+			<Button Text="KasteelFlorisPageJC" Clicked="KasteelFlorisPageJC_Clicked"/>
+			<Button Text="KasteelFlorisPageMdW" Clicked="KasteelFlorisPageMdW_Clicked"/>
+		</StackLayout>
+	</StackLayout>
+</ContentPage>
